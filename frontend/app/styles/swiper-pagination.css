@@ -1,0 +1,21 @@
+.swiper-pagination-bullet {
+    background-color: rgb(48, 60, 67);
+    opacity: 0.2;
+  }
+  .swiper-pagination {
+    position: static;
+    width: 100%;
+  }
+
+  .swiper-pagination-bullet-active {
+    width: 32px;
+    border-radius: 4px;
+    opacity: 1;
+  }
+
+  @media (min-width: 768px) {
+    .swiper-pagination {
+      display: none;
+    }
+  }
+  

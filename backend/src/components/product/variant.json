@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_product_variants",
+  "info": {
+    "displayName": "Variant",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "color": {
+      "type": "component",
+      "repeatable": false,
+      "component": "product.color"
+    },
+    "material": {
+      "type": "component",
+      "repeatable": false,
+      "component": "product.material"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "variantId": {
+      "type": "biginteger"
+    }
+  }
+}

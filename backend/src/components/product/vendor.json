@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_product_vendors",
+  "info": {
+    "displayName": "vendor",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "string"
+    }
+  }
+}

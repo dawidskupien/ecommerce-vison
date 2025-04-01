@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_select_currency_selects",
+  "info": {
+    "displayName": "currencySelect",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "currency": {
+      "type": "string",
+      "required": true
+    },
+    "countryImage": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}

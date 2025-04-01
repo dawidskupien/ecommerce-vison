@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_header_links",
+  "info": {
+    "displayName": "links"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    },
+    "sublinks": {
+      "displayName": "sublinks",
+      "type": "component",
+      "repeatable": true,
+      "component": "header.sublinks"
+    }
+  }
+}

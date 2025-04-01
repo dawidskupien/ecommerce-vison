@@ -1,0 +1,22 @@
+{
+  "kind": "singleType",
+  "collectionName": "announcement_bars",
+  "info": {
+    "singularName": "announcement-bar",
+    "pluralName": "announcement-bars",
+    "displayName": "AnnouncementBar",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "announcements": {
+      "displayName": "announcments",
+      "type": "component",
+      "repeatable": true,
+      "component": "header.announcments"
+    }
+  }
+}

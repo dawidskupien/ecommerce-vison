@@ -1,0 +1,55 @@
+{
+  "version": "7",
+  "dialect": "postgresql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "7",
+      "when": 1719872130594,
+      "tag": "0000_smiling_rictor",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "7",
+      "when": 1719872529747,
+      "tag": "0001_cuddly_maddog",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1719872580483,
+      "tag": "0002_bumpy_secret_warriors",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "7",
+      "when": 1719872634450,
+      "tag": "0003_lively_gamma_corps",
+      "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "7",
+      "when": 1719872766500,
+      "tag": "0004_real_ken_ellis",
+      "breakpoints": true
+    },
+    {
+      "idx": 5,
+      "version": "7",
+      "when": 1719875541317,
+      "tag": "0005_keen_silver_centurion",
+      "breakpoints": true
+    },
+    {
+      "idx": 6,
+      "version": "7",
+      "when": 1719875867109,
+      "tag": "0006_tiny_nightcrawler",
+      "breakpoints": true
+    }
+  ]
+}

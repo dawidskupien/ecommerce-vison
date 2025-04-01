@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_currencies_currencies",
+  "info": {
+    "displayName": "Price",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "value": {
+      "type": "decimal",
+      "required": true
+    },
+    "currency": {
+      "type": "enumeration",
+      "enum": [
+        "USD",
+        "PLN"
+      ],
+      "required": true
+    },
+    "discountedValue": {
+      "type": "decimal"
+    }
+  }
+}

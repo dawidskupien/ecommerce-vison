@@ -1,0 +1,20 @@
+{
+  "kind": "singleType",
+  "collectionName": "currency_selects",
+  "info": {
+    "singularName": "currency-select",
+    "pluralName": "currency-selects",
+    "displayName": "currencySelect"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Option": {
+      "type": "component",
+      "repeatable": true,
+      "component": "global.currency-select"
+    }
+  }
+}

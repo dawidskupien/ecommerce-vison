@@ -1,0 +1,63 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --announcement-bar-height: 2.375rem;
+  --navigation-top-bar-height: 2.375rem;
+  --navigation-height-desktop: 7.5rem;
+  --navigation-height-mobile: 4.125rem;
+  --mobile-header-height: calc(
+    var(--announcement-bar-height) + var(--navigation-height-mobile)
+  );
+  --header-height: calc(
+    var(--announcement-bar-height) + var(--navigation-top-bar-height) +
+      var(--navigation-height-desktop)
+  );
+  text-rendering: optimizeLegibility;
+}
+
+* {
+  @apply antialiased;
+  text-rendering: optimizeLegibility !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  @apply font-inter tracking-[-0.02em];
+}
+
+body {
+  @apply bg-background font-roboto !overflow-auto !pr-0;
+}
+
+
+
+
+/* hide up and down arrows on the input with numbers */
+input.hideArrows[type="number"] {
+  -moz-appearance: textfield;
+}
+
+input.hideArrows::-webkit-outer-spin-button,
+input.hideArrows::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+.slide-background-image {
+  background-image: var(--desktop-bg);
+}
+
+@media (max-width: 768px) {
+  .slide-background-image {
+    background-image: var(--mobile-bg);
+  }
+}
+
+
+
+

@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_labels_labels",
+  "info": {
+    "displayName": "Label",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    }
+  }
+}
